@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D5E1EF;
+  font-family: "Outfit", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 320px;
+  background-color: white;
+  gap: 16px;
+  padding: 16px;
+  margin: 24px;
+  border-radius: 20px;
+}
+body main img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+body main h1 {
+  text-align: center;
+  color: #1F314F;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+body main p {
+  text-align: center;
+  color: #7D889E;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=index.css.map */
